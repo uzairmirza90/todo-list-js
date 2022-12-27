@@ -1,0 +1,72 @@
+
+.todocontainer{
+    width: 65%;
+    float: left;
+    text-align: center;
+}
+
+.checkedcontainer{
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+hr{
+    margin-top: 40px;
+}
+#deleteall{
+    float: right;
+    margin-right: 30px;
+    
+}
+#deleteallcom{
+    margin-left: 40px;
+}
+button{
+    background-color: rgb(188, 188, 240);
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+input[type=checkbox]{
+    float: left;
+    width: 20px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+#vertical{
+    background-color: black;
+    width: 5px;
+    height: 100vh;
+    position: absolute;
+    left: 65%;
+    margin-left: -3px;
+    top: 0;
+    
+}
+#inputText{
+    width: 450px;
+    height: 27px;
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.lists{
+   font-size: 27px;
+   font-weight: 600;
+   word-wrap: break-word;
+   
+} 
